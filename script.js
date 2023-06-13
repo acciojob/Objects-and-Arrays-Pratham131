@@ -9,7 +9,9 @@ const person = {
 let team = players;
 let team1 = players;
 
-let cap1 = person; 
+person.name = "Accio Job"
+person.age = 25
+let cap1 = person.name; 
 
 window.players = players;
 window.person = person;
