@@ -13,8 +13,8 @@ team1.unshift();
 
 let cap1 = person;
 
-cap1.name = "Accio Job"
-cap1.age = 25
+cap1.name = ""
+cap1.age = 28
 
 
 window.players = players;
