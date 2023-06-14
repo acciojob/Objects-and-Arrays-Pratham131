@@ -7,12 +7,15 @@ const person = {
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 let team = players;
-players.pop();
-let team1 = players.shift();
+let team1 = players;
+team1.pop();
+team1.unshift();
 
-person.name = "Accio Job"
-person.age = 25
-let cap1 = person.name; 
+let cap1 = person;
+
+cap1.name = "Accio Job"
+cap1.age = 25
+
 
 window.players = players;
 window.person = person;
