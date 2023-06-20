@@ -1,7 +1,7 @@
 const players = ["John", "Bob", "Alice", "Poppy"];
 
 const person = {
-  name: "Accio Job",
+  name: "",
   age: 80,
 };
 
